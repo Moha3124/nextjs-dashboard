@@ -19,7 +19,7 @@ export default function EditInvoiceForm({
   customers: CustomerField[];
 }) {
   return (
-    <form action={updateInvoice}>
+    <form action={updateInvoice.bind(invoice.id)}>
       {/* 👇 تمرير ID مخفي */}
       <input type="hidden" name="id" value={invoice.id} />
 
