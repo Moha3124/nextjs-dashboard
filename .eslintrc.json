@@ -3,5 +3,5 @@
     "next/core-web-vitals",
     "next/typescript"
   ],
-  "@react/jsx-no-comment-textnodes":"off"
+  "react/jsx-no-comment-textnodes":"off"
 }
